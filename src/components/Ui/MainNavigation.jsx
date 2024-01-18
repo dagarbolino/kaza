@@ -1,26 +1,22 @@
+import { Link } from 'react-router-dom'
+
+import img from '../../assets/logo.png'
+
 const MainNavigation = () => {
-  return (
-    <>
-      <nav className="containerNavbar">
-        <div className="logo">
-          <img src="#" alt="#" />
-        </div>
+      return (
+            <>
+                  <nav className="navBar">
+                        <div className="logo">
+                              <img src={img} alt="logo" />
+                        </div>
 
-        <div className="navLinks">
-          <navLinks>
-            <ul>
-              <li>
-                <a href="#">Acceuil</a>
-              </li>
-              <li>
-                <a href="#">A Propos</a>
-              </li>
-            </ul>
-          </navLinks>
-        </div>
-      </nav>
-    </>
-  );
-};
+                        <div className="menu">
+                              <Link to="/">Accueil</Link>
+                              <Link to="/about">A Propos</Link>
+                        </div>
+                  </nav>
+            </>
+      )
+}
 
-export default MainNavigation;
+export default MainNavigation
