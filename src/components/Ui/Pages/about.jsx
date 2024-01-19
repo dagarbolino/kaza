@@ -1,8 +1,19 @@
+import Footer from '../../Ui/Footer'
 function About() {
       return (
-            <div>
-                  <h1>A Propos</h1>
-            </div>
+            <>
+                  <main className="mainAbout">
+                        <div className="mainContent">
+                              <div className="mainContent__text">
+                                    <h1>le mainAbout</h1>
+                                    
+                              </div>      
+
+                        </div>
+                  </main>
+
+                  <Footer />
+            </>
       )
 }
 

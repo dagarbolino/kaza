@@ -1,9 +1,13 @@
+import Footer from '../../Ui/Footer'
+import MainHome from '../MainHome'
+
 function Home() {
-      return (
-            <div>
-                  <h1>Acceuil</h1>
-            </div>
-      )
+        return (
+<>
+<MainHome/>
+<Footer />
+</>
+        )
 }
 
 export default Home

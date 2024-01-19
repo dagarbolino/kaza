@@ -1,20 +1,29 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
+
+
+import Hero from './Hero'
 import img from '../../assets/logo.png'
 
 const MainNavigation = () => {
       return (
             <>
                   <nav className="navBar">
-                        <div className="logo">
+                        <div className="__logo">
                               <img src={img} alt="logo" />
                         </div>
 
-                        <div className="menu">
-                              <Link to="/">Accueil</Link>
-                              <Link to="/about">A Propos</Link>
+                        <div className="__menu">
+                              <NavLink to="/" className="__acceuil">
+                                    Accueil
+                              </NavLink>
+                              <NavLink to="/about" className="__propos">
+                                    A Propos
+                              </NavLink>
                         </div>
                   </nav>
+                  <Hero />
+
             </>
       )
 }

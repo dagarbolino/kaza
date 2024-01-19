@@ -1,18 +1,23 @@
-const Hero = () => {
-    return (
-        <>
-            <div className="hero">
-                <div className="hero__content">
-                    
-                      <h1 className="hero__title" style={{ color: "black" }}>Kaza</h1>
-                      <p className="hero__description" style={{ color: "black" }}>
-                        Kaza est une application web qui permet de gérer les biens immobiliers</p>
+const img = require('../../assets/banner1.png')
 
-                </div>
-            
-            </div>
-        </>
-    )
+const Hero = () => {
+      return (
+            <>
+                  <div className="hero">
+                        <div className="hero__content">
+                              <h1
+                                    className="hero__title"
+                              >
+                                    Chez vous, partout et ailleurs
+                              </h1>
+                              <img
+                                    src={img}
+                                    alt="img : le produit sélectionné"
+                              />
+                        </div>
+                  </div>
+            </>
+      )
 }
 
 export default Hero
