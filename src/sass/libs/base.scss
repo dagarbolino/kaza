@@ -32,13 +32,11 @@ body {
     align-items: center;
     margin-bottom: 10px;
 
-
     a {
       text-decoration: none;
       color: $secondary-color;
       border-bottom: 2px solid transparent;
       transition: border-bottom 0.4s ease-in-out;
-
     }
 
     .__propos,
@@ -63,7 +61,6 @@ body {
   justify-content: space-between;
   align-items: center;
 
-
   .hero__content {
     width: 100%;
     height: auto;
@@ -71,7 +68,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
 
     img {
       width: 100%;
@@ -101,7 +97,6 @@ body {
   justify-content: space-between;
   align-items: center;
 
-
   figure {
     width: auto;
     height: auto;
@@ -110,7 +105,7 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    margin:  0.6rem 0;
+    margin: 0.6rem 0;
     background: rgb(223, 213, 213);
     border-radius: 10px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
